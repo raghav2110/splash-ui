@@ -1,0 +1,29 @@
+.avatar{
+    object-fit: cover;
+    position: relative;
+    margin: 1rem;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.square{
+    border-radius: 0.5rem;
+}
+
+.avatar-small{
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar-medium{
+    width: 4rem;
+    height: 4rem;
+}
+
+.avatar-large{
+    width: 5rem;
+    height: 5rem;
+}
+
