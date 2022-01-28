@@ -1,0 +1,28 @@
+.alert{
+    border-radius: 0.625rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.alert-success{
+    color: #1b7052;
+    background-color: #84f1c9;
+}
+
+.alert-error{
+    color: #dc3545;
+    background-color: #fcc5c5;
+}
+
+.alert-warning{
+    color: #ff9204;
+    background-color: #ffe7c5;
+}
+
+.alert-information{
+    color: #0d89ee;
+    background-color: #c4e4ff;
+
+}
