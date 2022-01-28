@@ -1,0 +1,37 @@
+.badge{
+    position: relative;
+}
+
+.badge-icon{
+    background-color: rgb(181, 181, 245);
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    padding: 0.1rem 0.35rem;
+    box-sizing: border-box;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    left: 1.6rem;
+}
+
+.badge-stat{
+    color: green;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+}
+
+.badge-stat-small{
+    font-size: 0.5rem;
+}
+
+.badge-stat-medium{
+    font-size: 0.8rem;
+    right: 0.3rem;
+    bottom: 0.3rem;
+}
+
+.badge-stat-large{
+    right: 0.4rem;
+    bottom: 0.3rem;
+}

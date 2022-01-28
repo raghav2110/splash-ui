@@ -1,7 +1,6 @@
 .avatar{
     object-fit: cover;
     position: relative;
-    margin: 1rem;
 }
 
 .circle{
