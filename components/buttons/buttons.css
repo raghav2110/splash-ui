@@ -1,0 +1,49 @@
+.btn{
+    width: max-content; 
+    letter-spacing: 1px;
+    background-color: #1FABD7;
+    padding: 0.8rem 0.8rem;
+    font-size: 0.8rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    font-weight: bold;
+    border: transparent;
+}
+
+.btn-primary:hover{
+    background-color: #1a9fc7;
+}
+
+.btn-primary{
+    color: whitesmoke;
+}
+
+.btn-secondary{
+    color: #1FABD7;
+    background-color: whitesmoke;
+    border: 1px solid #1a9fc7;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(237, 249, 252);
+}
+
+.btn-icon{
+    padding: auto;
+    color: whitesmoke;
+}
+
+.btn-floating-action{
+    letter-spacing: normal;
+    padding: 0;
+    border: 1rem solid #1FABD7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 5rem;
+    right: 3rem;
+}
