@@ -1,0 +1,112 @@
+.main-card{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    margin: 1.2rem;
+}
+
+.card-badge{
+    position: absolute;
+    top: 1.2rem;
+    background-color:#1FABD7;
+    color: white;
+    padding: 0rem 1rem;
+}
+
+.card-dismiss{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card-dismiss:hover{
+    cursor: pointer;
+}
+
+.img-comp{
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+
+
+.info-div:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.header-comp{
+    padding: 1rem;
+}
+
+.header{
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 0.6rem;
+}
+
+.sub-header{
+    font-size: 0.875rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.hz-image{
+    max-width: 110px;
+    width: 100%;
+    
+}
+
+.hz{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-overlay{
+    position: absolute;
+    top:6.5rem;
+    right: 6rem;
+    font-weight: bolder;
+}
+
+.over-image{
+    position: relative;
+    opacity: 0.2;
+}
+
+.detail-comp{
+    color: rgba(0,0,0,.54);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.icons-comp{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.icons-comp i{
+    padding: 1rem;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.card-shadow{
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #acdeee;
+}
