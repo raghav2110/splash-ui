@@ -1,4 +1,4 @@
-.main-card{
+.card-comp{
     max-width: 300px;
     width: 100%;
     display: flex;
@@ -36,9 +36,7 @@
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
-
-
-.info-div:hover{
+.text-comp:hover{
     background-color: rgb(241, 241, 241);
     cursor: pointer;
 }
@@ -60,10 +58,10 @@
     font-weight: 500;
 }
 
-.hz-image{
+.hz-img{
     max-width: 110px;
     width: 100%;
-    
+    border-radius: 0.5rem 0 0 0;
 }
 
 .hz{
@@ -71,14 +69,14 @@
     flex-direction: row;
 }
 
-.image-overlay{
+.img-overlay{
     position: absolute;
     top:6.5rem;
     right: 6rem;
     font-weight: bolder;
 }
 
-.over-image{
+.over-img{
     position: relative;
     opacity: 0.2;
 }
@@ -97,13 +95,13 @@
     margin-right: 1rem;
 }
 
-.icons-comp i{
+.icon{
     padding: 1rem;
     color: gray;
     font-size: 1.2rem;
 }
 
-i:hover{
+.icon:hover{
     cursor: pointer;
 }
 
