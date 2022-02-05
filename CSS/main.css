@@ -1,0 +1,22 @@
+/* Import Components CSS */
+
+@import url("/components/alerts/alerts.css");
+@import url("/components/avatars/avatar.css");
+@import url("/components/badges/badges.css");
+@import url("/components/buttons/buttons.css");
+@import url("/components/cards/cards.css");
+@import url("/components/images/images.css");
+@import url("/components/inputs/inputs.css");
+@import url("/components/navbar/navbar.css");
+
+/* Font Import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+/* Doc site styles */
+@import url("/CSS/document-site.css");
+
+/* Variable css */
+@import url("/CSS/variables.css");
+
+/* Landing Page Style */
+@import url("/CSS/landing-page.css");
