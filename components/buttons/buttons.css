@@ -39,7 +39,7 @@
 .btn-floating-action{
     letter-spacing: normal;
     padding: 0;
-    border: 1rem solid #1FABD7;
+    border: 1rem solid var(--headerbg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
     width: 3rem;
     height: 3rem;
