@@ -1,1 +1,425 @@
-<p>Doc</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPLASH UI | Docs</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header-main">
+        <nav class="nav nav-dark">
+            <h1 class="shadow-text-white"><a href="./landing-page.html">SPLASH UI</a></h1>
+            <button class="hamburger" id="btnHam-Landing"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+            <ul class="nav-list">
+                <li><a href="./landing-page.html">HOME</a></li>
+                <li><a href="./document-site.html">DOC</a></li>
+                <li><a href="https://github.com/raghav2110/splash-ui">&lt;/&gt;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-layout">
+        <aside class="components-nav">
+            <h2>Components</h2>
+            <ul>
+                <a href="#avatar" onclick="hideSideNavBar()">
+                    <li>Avatar</li>
+                </a>
+
+                <a href="#alert" onclick="hideSideNavBar()">
+                    <li>
+                        Alert</li>
+                </a>
+
+                <a href="#badge" onclick="hideSideNavBar()">
+                    <li>
+                        Badge</li>
+                </a>
+
+                <a href="#buttons" onclick="hideSideNavBar()">
+                    <li>
+                        Buttons</li>
+                </a>
+
+                <a href="#card" onclick="hideSideNavBar()">
+                    <li> Card</li>
+                </a>
+
+                <a href="#images" onclick="hideSideNavBar()">
+                    <li>
+                        Images</li>
+                </a>
+
+                <a href="#input" onclick="hideSideNavBar()">
+                    <li>
+                        Input</li>
+                </a>
+            </ul>
+        </aside>
+        <div class="doc-component">
+
+            <!-- Avatar Component -->
+            <div class="component" id="avatar">
+                <h2>Avatar</h2>
+                <p class="description">Show the active user identity using Avatar component</p>
+                <h3>Round avatar</h3>
+                <div class="avatar-examples">
+                    <a href=""><img class="avatar circle avatar-small" src="./assets/profile-image.jpg"></a>
+                    <a href=""><img class="avatar circle avatar-medium" src="./assets/profile-image.jpg"></a>
+                    <a href=""><img class="avatar circle avatar-large" src="./assets/profile-image.jpg"></a>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('round-avatar-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="round-avatar-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520circle%2520avatar-small%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520circle%2520avatar-medium%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520circle%2520avatar-large%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E"
+                        style="width: 100%; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Square avatar</h3>
+                <div class="avatar-examples">
+                    <a href=""><img class="avatar square avatar-small" src="./assets/profile-image.jpg"></a>
+                    <a href=""><img class="avatar square avatar-medium" src="./assets/profile-image.jpg"></a>
+                    <a href=""><img class="avatar square avatar-large" src="./assets/profile-image.jpg"></a>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('square-avatar-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="square-avatar-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520square%2520avatar-small%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520square%2520avatar-medium%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520square%2520avatar-large%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E"
+                        style="width: 100%; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Alert Component -->
+            <div class="component" id="alert">
+                <h2>Alert</h2>
+                <p class="description">For every action there should be equivalent feedback to users. Provide repsonive messages to users by using the Alerts </p>
+                <div class="alert-examples">
+                    <div class="alert alert-success">
+                        <p>✔️ This is success alert!</p>
+                    </div>
+                    <div class="alert alert-error">
+                        <p>❌ This is an error alert!</p>
+                    </div>
+                    <div class="alert alert-warning">
+                        <p>⚠️ This is warning alert!</p>
+                    </div>
+                    <div class="alert alert-information">
+                        <p><i class="fa fa-info-circle" aria-hidden="true"></i> This is an information alert!</p>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('alert-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="alert-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%25E2%259C%2594%25EF%25B8%258F%2520This%2520is%2520success%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%25E2%259D%258C%2520This%2520is%2520an%2520error%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%25E2%259A%25A0%25EF%25B8%258F%2520This%2520is%2520warning%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-information%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fa%2520fa-info-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520This%2520is%2520an%2520information%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Badge Component -->
+            <div class="component" id="badge">
+                <h2>Badge</h2>
+
+                <!-- Badge on icon -->
+                <h3>Badge on icon</h3>
+                <p class="description">Notifications, messages, cart etc., icons needs to have badge to display the number of respective items it has.</p>
+                <div class="badge">
+                    <i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+                    <span class="badge badge-icon">300</span>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('badge-icon-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="badge-icon-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bell-o%2520fa-3x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon%2522%253E300%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- Badge on avatar -->
+                <h3>Badge on avatar</h3>
+                <p class="description">Show the status on avatar using badges. Change the badge-status class color and use different icons to show different status.</p>
+                <div class="avatar-examples ">
+                    <!-- Badge on small avatar -->
+                    <div class="badge">
+                        <a href=""><img class="avatar circle avatar-small" src="./assets/profile-image.jpg"></a>
+                        <span class="badge-stat badge-stat-small"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="badge">
+                        <a href=""><img class="avatar circle avatar-medium" src="./assets/profile-image.jpg"></a>
+                        <span class="badge-stat badge-stat-medium"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="badge">
+                        <a href=""><img class="avatar circle avatar-large" src="./assets/profile-image.jpg"></a>
+                        <span class="badge-stat badge-stat-large"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('badge-avatar-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="badge-avatar-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520circle%2520avatar-small%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-stat%2520badge-stat-small%2522%253E%253Ci%2520class%253D%2522fa%2520fa-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520circle%2520avatar-medium%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-stat%2520badge-stat-medium%2522%253E%253Ci%2520class%253D%2522fa%2520fa-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Cimg%2520class%253D%2522avatar%2520circle%2520avatar-large%2522%2520src%253D%2522.%252Fassets%252Fprofile-image.jpg%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-stat%2520badge-stat-large%2522%253E%253Ci%2520class%253D%2522fa%2520fa-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Buttons Component -->
+            <div class="component" id="buttons">
+                <h2>Buttons</h2>
+                <p class="description">Buttons are used on do take some actions after the user click </p>
+                <div>
+                    <button class="btn btn-primary">Primary Button</button>
+                    <button class="btn btn-secondary">Secondary Button</button>
+                    <button class="btn btn-icon"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></button>
+                    <button class="btn btn-floating-action" style="position: relative; top: 0; left: 0.5rem;"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('button-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="button-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-lg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-plus%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                        style="width: 100%; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Cards Component -->
+            <div class="component" id="card">
+                <h2>Cards</h2>
+                <p class="description">A card is a container which includes options for headers and footers, a wide variety of content, background colors, and display action items. </p>
+                <h3>Cards With Badges</h3>
+                <p class="description">A card with badge higlights the specific card from other cards.</p>
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/product-image.jpg" alt="Food Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Double Threat</div>
+                            <div class="sub-header">₹ 429</div>
+                        </div>
+                        <div class="detail-comp">The Double Threat Jawbreaker Double grounded beef patties, double cheese,fried egg, sausages, french fries and jalapeño popper.</div>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-heart icon"></i>
+                        <i class="fa fa-share-alt icon"></i>
+                        <i class="fa fa-ellipsis-v icon"></i>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('card-with-badge-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="card-with-badge-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-comp%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img-comp%2522%2520src%253D%2522%252Fassets%252Fproduct-image.jpg%2522%2520alt%253D%2522Food%2520Image%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253EDouble%2520Threat%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-header%2522%253E%25E2%2582%25B9%2520429%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522detail-comp%2522%253EThe%2520Double%2520Threat%2520Jawbreaker%2520Double%2520grounded%2520beef%2520patties%252C%2520%250A%2509%2509%2509double%2520cheese%252Cfried%2520egg%252C%2520sausages%252C%2520french%2520fries%2520and%2520jalape%25C3%25B1o%2520popper.%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522icons-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 390px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Cards With Dismiss</h3>
+                <p class="description">Close the shown card using dismiss option on it. Add functionality to the dimiss button on the card.</p>
+                <div class="card-comp" id="dismiss-card">
+                    <img class="img-comp" src="/assets/product-image.jpg" alt="Food Image">
+                    <span class="card-dismiss" onclick="showCodeForComp('dismiss-card')">x</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Double Threat</div>
+                            <div class="sub-header">₹ 429</div>
+                        </div>
+                        <div class="detail-comp">The Double Threat Jawbreaker Double grounded beef patties, double cheese,fried egg, sausages, french fries and jalapeño popper.</div>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-heart icon"></i>
+                        <i class="fa fa-share-alt icon"></i>
+                        <i class="fa fa-ellipsis-v icon"></i>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('card-with-dismiss-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="card-with-dismiss-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-comp%2522%2520id%253D%2522dismiss-card%2522%2520style%253D%2522display%253A%2520block%253B%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-comp%2522%2520src%253D%2522%252Fassets%252Fproduct-image.jpg%2522%2520alt%253D%2522Food%2520Image%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-dismiss%2522%2520onclick%253D%2522showCodeForComp%28%27dismiss-card%27%29%2522%253Ex%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253EDouble%2520Threat%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-header%2522%253E%25E2%2582%25B9%2520429%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522detail-comp%2522%253EThe%2520Double%2520Threat%2520Jawbreaker%2520Double%2520grounded%2520beef%2520patties%252C%2520double%2520cheese%252C%250A%2509%2509%2509fried%2520egg%252C%2520sausages%252C%2520french%2520fries%2520and%2520jalape%25C3%25B1o%2520popper.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 390px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Cards with Text Overlay</h3>
+                <p class="description">Overlay the important text on the card to highlight it.</p>
+                <div class="card-comp">
+                    <img class="img-comp over-img" src="/assets/product-image.jpg" alt="Food Image">
+                    <div class="text-comp">
+                        <div class="header img-overlay">Out Of Stock</div>
+                        <div class="detail-comp over-img">The Double Threat Jawbreaker Double grounded beef patties, double cheese,fried egg, sausages, french fries and jalapeño popper.</div>
+                    </div>
+                    <div class="icons-comp over-img">
+                        <i class="fa fa-heart icon"></i>
+                        <i class="fa fa-share-alt icon"></i>
+                        <i class="fa fa-ellipsis-v icon"></i>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('card-with-overlay-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="card-with-overlay-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-comp%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-comp%2520over-img%2522%2520src%253D%2522%252Fassets%252Fproduct-image.jpg%2522%2520alt%253D%2522Food%2520Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2520img-overlay%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522detail-comp%2520over-img%2522%253EThe%2520Double%2520Threat%2520Jawbreaker%2520Double%2520grounded%2520beef%2520patties%252C%2520%250A%2509%2509%2509double%2520cheese%252Cfried%2520egg%252C%2520sausages%252C%2520french%2520fries%2520and%2520jalape%25C3%25B1o%2520popper.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons-comp%2520over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Text only cards</h3>
+                <p class="description">When we have only text that needs to be shown as card use below simple text only cards.</p>
+                <div class="card-comp">
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Card Header</div>
+                            <div class="sub-header">Sub Header</div>
+                        </div>
+                        <div class="detail-comp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-heart icon"></i>
+                        <i class="fa fa-share-alt icon"></i>
+                        <i class="fa fa-ellipsis-v icon"></i>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('card-with-text-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="card-with-text-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-comp%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253ECard%2520Header%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-header%2522%253ESub%2520Header%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522detail-comp%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%2520elit%252C%2520sed%2520do%2520eiusmod%2520%250A%2509%2509%2509tempor%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                </div>
+                <h3>Horizontal Card</h3>
+                <p class="description">Show cards view in landscape on large screens and normal card in smaller screens. Yes it is responsive card </p>
+                <div class="card-comp">
+                    <div class="text-comp hz">
+                        <img class="img-comp hz-img" src="/assets/product-image.jpg" alt="Food Image">
+                        <div class="header-comp">
+                            <div class="header">Double Threat</div>
+                            <div class="sub-header">₹ 429</div>
+                        </div>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-heart icon"></i>
+                        <i class="fa fa-share-alt icon"></i>
+                        <i class="fa fa-ellipsis-v icon"></i>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('card-horz-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="card-horz-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-comp%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-comp%2520hz%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-comp%2520hz-img%2522%2520src%253D%2522%252Fassets%252Fproduct-image.jpg%2522%2520alt%253D%2522Food%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253EDouble%2520Threat%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-header%2522%253E%25E2%2582%25B9%2520429%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Cards with Shadow</h3>
+                <p class="description">Shadowing always gives 3D effect to an element</p>
+                <div class="card-comp card-shadow">
+                    <img class="img-comp" src="/assets/product-image.jpg" alt="Food Image">
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Double Threat</div>
+                            <div class="sub-header">₹ 429</div>
+                        </div>
+                        <div class="detail-comp">The Double Threat Jawbreaker Double grounded beef patties, double cheese,fried egg, sausages, french fries and jalapeño popper.</div>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-heart icon"></i>
+                        <i class="fa fa-share-alt icon"></i>
+                        <i class="fa fa-ellipsis-v icon"></i>
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('card-shadow-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="card-shadow-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-comp%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-comp%2522%2520src%253D%2522%252Fassets%252Fproduct-image.jpg%2522%2520alt%253D%2522Food%2520Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253EDouble%2520Threat%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-header%2522%253E%25E2%2582%25B9%2520429%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522detail-comp%2522%253EThe%2520Double%2520Threat%2520Jawbreaker%2520Double%2520grounded%2520beef%2520patties%252C%2520double%2520cheese%252C%250A%2509%2509%2509fried%2520egg%252C%2520sausages%252C%2520french%2520fries%2520and%2520jalape%25C3%25B1o%2520popper.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Images component -->
+            <div class="component" id="images">
+                <h2>images</h2>
+                <h3>Responsive-Image</h3>
+                <p class="description">Having images responsive on the sites makes it beautiful and not to worry of screen sizes much.</p>
+                <img class="img-responsive" src="/assets/profile-image.jpg">
+                <h3>Round Responsive-Image</h3>
+                <p class="description">Another resposive image but this time round which will fit for all the screen sizes.</p>
+                <img class="img-responsive img-round" src="/assets/profile-image.jpg">
+                <button class="btn btn-secondary" onclick="showCodeForComp('images-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="images-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522%252Fassets%252Fprofile-image.jpg%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522%252Fassets%252Fprofile-image.jpg%2522%253E"
+                        style="width: 100%; height: 111px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Input component -->
+            <div class="component" id="input">
+                <h2>Input</h2>
+                <p class="description">User inputs are essential for a site to show the contents to the users.</p>
+                <h3>Primary Input</h3>
+                <div class="input-group">
+                    <label>Username *</label>						
+                    <input type="text">
+                </div>
+                <h3>Input With Error Style</h3>
+                <div class="input-group err">
+                    <label>Password *</label>						
+                    <input type="text">
+                    <div class="error-message">
+                        Wrong Password. Try again.
+                    </div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('input-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="input-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-group%2520err%2522%253E%250A%2520%2520%2520%2520%253Clabel%253EPassword%2520*%253C%252Flabel%253E%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Wrong%2520Password.%2520Try%2520again.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="/Functionality/showCodeForComp.js"></script>
+</body>
+</html>
