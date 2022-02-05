@@ -1,0 +1,42 @@
+:root {
+    --primary: #B3CDE0;
+    --darkgrey: #4b5563;
+    --gray: gray;
+    --gray50: #f9fafb;
+    --bgcolor: whitesmoke;
+    --badgeColor: #4b5563;
+    --headerbg: #03396c;
+    --hamburgerbg: #6397B0;
+
+    /* alert colors */
+    --alertSuccesColor: #1b7052;
+    --alertErrorColor: #dc3545;
+    --alertWarningColor: #ff9204;
+    --alertInfoColor: #0d89ee;
+    --alertSuccesColorBg: #84f1c9;
+    --alertErrorColorBg: #fcc5c5;
+    --alertWarningColorBg: #ffe7c5;
+    --alertInfoColorBg: #c4e4ff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+ 
+button {
+    cursor: pointer;
+}
+ 
+a {
+    text-decoration: none;
+    color: inherit;
+}
