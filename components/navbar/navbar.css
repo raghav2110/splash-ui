@@ -28,6 +28,20 @@
     color:var(--headerbg);
 }
 
+.nav .search-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav input{
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    border: none;
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
 .nav-list{
     list-style: none;
     display: flex;
@@ -45,7 +59,7 @@
    display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .nav-list{
         display: none;
     }
@@ -59,3 +73,8 @@
     }
 }
 
+@media screen and (max-width: 1000px){
+    .nav .search-container{
+        display: none;
+    }
+}
