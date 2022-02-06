@@ -10,9 +10,14 @@
 </head>
 <body>
     <header class="header-main">
+        <script>
+            var shiftWindow = function() { scrollBy(0, -100) };
+            window.addEventListener("hashchange", shiftWindow);
+            function load() { if (window.location.hash) shiftWindow(); }
+        </script>
         <nav class="nav nav-dark">
             <h1 class="shadow-text-white"><a href="./landing-page.html">SPLASH UI</a></h1>
-            <button class="hamburger" id="btnHam-Landing"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+            <button class="hamburger" id="btnHam-document"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
             <ul class="nav-list">
                 <li><a href="./landing-page.html">HOME</a></li>
                 <li><a href="./document-site.html">DOC</a></li>
@@ -59,7 +64,7 @@
             </ul>
         </aside>
         <div class="doc-component">
-
+            <h1 class="heading">Let's Get Started</h1>
             <!-- Avatar Component -->
             <div class="component" id="avatar">
                 <h2>Avatar</h2>
@@ -417,9 +422,32 @@
                     </iframe>
                 </div>
             </div>
-
         </div>
+        <footer class="footer-comp">
+            <nav class="nav nav-dark">
+                <h4 style="color: whitesmoke;">Made With 💙 By Raghav</h4>
+                <ul class="nav-list" style="display: flex;">
+                    <li> <a href="https://github.com/raghav2110" target="_blank">
+                            <i class="fa fa-github fa-lg" aria-hidden="true"></i></a> </li>
+    
+                    <li> <a href="https://www.linkedin.com/in/raghav-heda-96a981167/" target="_blank">
+                            <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+    
+                    <li>
+                        <a href="https://twitter.com/raghav_heda" target="_blank">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i></i></a>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </main>
+    <a href="document-site.html#avatar">
+        <button class="document-site btn btn-floating-action">
+            <i class="fa fa-angle-double-up fa-lg" aria-hidden="true"></i>
+        </button>
+    </a>
     <script src="/Functionality/showCodeForComp.js"></script>
+    <script src="/Functionality/hamburgerMenu.js"></script>
 </body>
 </html>

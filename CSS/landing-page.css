@@ -120,7 +120,7 @@
        position: fixed;
        top: 5rem;
        right: 0;
-       background-color: var(--darkgrey);
+       background-color: var(--headerbg);
        opacity: 0.9;
     }
  
