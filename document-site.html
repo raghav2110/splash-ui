@@ -61,6 +61,10 @@
                     <li>
                         Input</li>
                 </a>
+                <a href="#navbar" onclick="hideSideNavBar()">
+                    <li>
+                        Navigation</li>
+                </a>
             </ul>
         </aside>
         <div class="doc-component">
@@ -421,6 +425,54 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+            </div>
+
+            <!-- Navbar component -->
+            <div class="component" id="navbar">
+                <h2>Navigation</h2>
+                <p class="description">Navigation bar top essential element on any page to follow the users from sites one page to another page flawlessly. These nav are responsive and will have hamburger menu below 760px.</p>
+
+                <!-- Dark Navbar-->
+                <h3>Dark NavBar</h3>
+                <nav class="nav nav-dark" style="position: relative;">
+                    <h3>SITE NAME</h3>
+                    <button class="hamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                    <ul class="nav-list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Login</li>
+                    </ul>
+                </nav>
+
+                <!-- Light Navbar-->
+                <h3>Light Nav Bar</h3>
+                <nav class="nav nav-light" style="position: relative;">
+                    <h3>SITE NAME</h3>
+                    <button class="hamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                    <ul class="nav-list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Login</li>
+                    </ul>
+                </nav>
+
+                <!-- Dark Navbar-->
+                <h3>Navbar With Search And Icons</h3>
+                <nav class="nav nav-dark" style="position: relative;">
+                    <h3>SITE NAME</h3>
+                    <button class="hamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                    <div class="search-container">
+                        <input type="text" placeholder="🔍  Search.." name="search">
+                    </div>
+                    <ul class="nav-list">
+                        <li><button class="btn btn-secondary">Login</button></li>
+                        <li><button class="btn btn-icon"><i class="fa fa-heart fa-lg" aria-hidden="true"></i></button></li>
+                        <li><button class="btn btn-icon"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></button></li>
+                    </ul>
+                </nav>
+
+
+
             </div>
         </div>
         <footer class="footer-comp">

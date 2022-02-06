@@ -108,7 +108,7 @@
     padding: 1rem 0.5rem;
 }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 760px) {
     .nav-list-sidebar a{
         color: white;
     }
