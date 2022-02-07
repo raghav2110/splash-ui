@@ -1,0 +1,23 @@
+.txt-small{
+    font-size: small;
+}
+
+.txt-gray{
+    color: var(--darkgrey);
+   font-weight: bold;
+}
+.txt-align-flex{
+    display: flex;
+    flex-direction: column;
+}
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-right{
+    text-align: right;
+}
