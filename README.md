@@ -58,13 +58,14 @@ Visit [docs](https://splash-ui.vercel.app/#installation-guide) to learn more.
     - Light Navbar
     - Navbar With Search And Icons
  
- - [Text Utilities]()
+ - [Text Utilities](https://splash-ui.vercel.app/document-site.html#text-utilities)
     - Heading
     - Small Text
     - Gray Text
     - Different Text Alignment
    
-- [Snackbar]()
+- [Snackbar](https://splash-ui.vercel.app/document-site.html#snackbar)
+     - Simple Snackbar
 
 ---
 
