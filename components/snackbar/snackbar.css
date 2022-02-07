@@ -1,0 +1,98 @@
+.show-snackbar-baseline{
+    visibility: hidden;
+    position: fixed;
+    bottom: 2rem;
+    z-index: 2;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--snackbarbg);
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+.show-snackbar-leading{
+    visibility: hidden;
+    position: fixed;
+    bottom: 2rem;
+    z-index: 2;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--snackbarbg);
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.snackbar-left-comp{
+    padding: 1rem;
+    color: white;
+}
+
+.snackbar-right-comp{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    color: white;
+}
+
+.text-retry{
+    color: var(--retrytext);
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 760px) {
+    .show-snackbar-baseline{
+        visibility: hidden;
+        position: fixed;
+        bottom: 2rem;
+        z-index: 2;
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: var(--snackbarbg);
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem;
+        border-radius: 0.5rem;
+        font-size: 0.6rem;
+    }
+    .show-snackbar-leading{
+        visibility: hidden;
+        position: fixed;
+        bottom: 3.5rem;
+        z-index: 2;
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: var(--snackbarbg);
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        font-size: 0.7rem;
+    }
+    
+    .snackbar-left-comp{
+        padding: 0.5rem;
+        color: white;
+    }
+    
+    .snackbar-right-comp{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0.5rem;
+        color: white;
+    }
+    
+    .text-retry{
+        color: var(--retrytext);
+    }
+}
