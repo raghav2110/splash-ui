@@ -6,7 +6,7 @@
     color: var(--darkgrey);
    font-weight: bold;
 }
-.txt-align{
+.txt-align-flex{
     display: flex;
     flex-direction: column;
 }
