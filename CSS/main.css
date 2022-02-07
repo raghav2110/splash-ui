@@ -9,6 +9,7 @@
 @import url("/components/inputs/inputs.css");
 @import url("/components/navbar/navbar.css");
 @import url("/components/text-utilities/text-utilities.css");
+@import url("/components/snackbar/snackbar.css");
 
 /* Font Import*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
