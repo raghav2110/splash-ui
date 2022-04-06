@@ -81,7 +81,7 @@
         right: 1rem;
     }
     .components-nav-hamburger{
-        display: flex;
+        display: flex; 
         flex-direction: column;
         align-items: center;
         position: fixed;
