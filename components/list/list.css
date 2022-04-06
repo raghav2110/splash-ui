@@ -1,0 +1,13 @@
+.list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.list>li{
+    border: 1px solid lightgrey;
+    padding: 0.5rem 2rem;
+    
+}
+
+.list-spaced > li{
+    margin: 1rem 0 ;
+}
