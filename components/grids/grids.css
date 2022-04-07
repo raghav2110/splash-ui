@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-column-gap: 10px;
+}
+
+.grid.two{
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid.three{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid>.item{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px 5px;
+}
