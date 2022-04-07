@@ -76,6 +76,9 @@
                 <a href="#rating" onclick="hideSideNavBar()">
                     <li>
                         Rating</li>
+                <a href="#list" onclick="hideSideNavBar()">
+                    <li>
+                        List</li>
                 </a>
             </ul>
         </aside>
@@ -594,6 +597,36 @@
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522show-snackbar-baseline%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-left-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-right-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-retry%2522%253ERETRY%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520id%253D%2522close-baseline%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522show-snackbar-leading%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-left-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253EYour%2520photo%2520has%2520been%2520archived.%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-right-comp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-retry%2522%253EUNDO%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520id%253D%2522close-leading%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                         style="width: 100%; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- List Component -->
+            <div class="component" id="list">
+                <h2>List</h2>
+                <p class="description">Listing of data seen as multiple articles, notoification so on and here you can find simple spaced and stacked listing items.</p>
+                <h3>Spaced</h3>
+                <ul class="list list-spaced">
+                    <li>4 ⭐️ & Above</li>
+                    <li>3 ⭐️ & Above</li>
+                    <li>2 ⭐️ & Above</li>
+                    <li>1 ⭐️ & Above</li>
+                </ul>
+                <h3>Stacked</h3>
+                <ul class="list">
+                    <li>Notification 1</li>
+                    <li>Notification 2</li>
+                    <li>Notification 3</li>
+                    <li>Notification 4</li>
+                </ul>
+                <button class="btn btn-secondary" onclick="showCodeForComp('list-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="list-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520list-spaced%2522%253E%250A%2520%2520%2520%2520%253Cli%253E4%2520%25E2%25AD%2590%25EF%25B8%258F%2520%2526%2520Above%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E3%2520%25E2%25AD%2590%25EF%25B8%258F%2520%2526%2520Above%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E2%2520%25E2%25AD%2590%25EF%25B8%258F%2520%2526%2520Above%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E1%2520%25E2%25AD%2590%25EF%25B8%258F%2520%2526%2520Above%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Ch3%253EStacked%253C%252Fh3%253E%250A%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%253Cli%253ENotification%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ENotification%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ENotification%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="width: 100%; height: 316px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>

@@ -11,6 +11,7 @@
 @import url("/components/text-utilities/text-utilities.css");
 @import url("/components/snackbar/snackbar.css");
 @import url("/components/rating/rating.css");
+@import url("/components/list/list.css");
 
 /* Font Import*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
