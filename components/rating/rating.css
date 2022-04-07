@@ -1,0 +1,13 @@
+.rating{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.rating>span{
+    padding-right: 2px;
+}
+
+.rating > .checked{
+    color: var(--rating-selected);
+}
