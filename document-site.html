@@ -80,6 +80,10 @@
                     <li>
                         List</li>
                 </a>
+                <a href="#modal" onclick="hideSideNavBar()">
+                    <li>
+                        Modal</li>
+                </a>
             </ul>
         </aside>
         <div class="doc-component">
@@ -656,6 +660,38 @@
                     </iframe>
                 </div>
             </div>
+
+            <!-- Modal Component -->
+            <div class="component" id="modal">
+                <h2>Modal</h2>
+                <p class="description">Modal Are Dialog Boxes That Needs Some Action.</p>
+                <button class="btn btn-primary" onclick="showCodeFunctionality('modal-box')">Modal Box</button>
+
+                <div class="modal-component" id="modal-box" style="display: none;">
+                    <div class="modal-header">
+                        <h3>Modal Title</h3>
+                    </div>
+                    <div class="modal-text">
+                        <p>Modal Are Dialog Boxes That Needs Some Action.</p>
+                    </div>
+                    <footer>
+                        <button class="btn btn-primary" onclick="showCodeFunctionality('modal-box')">Ok</button>
+                        <button class="btn btn-secondary" onclick="showCodeFunctionality('modal-box')">Cancel</button>
+                    </footer>
+                </div>
+
+                <button class="btn btn-secondary" onclick="showCodeForComp('modal-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="modal-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-component%2522%2520id%253D%2522modal-box%2522%2520style%253D%2522display%253A%2520none%253B%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EModal%2520Title%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520Are%2520Dialog%2520Boxes%2520That%2520Needs%2520Some%2520Action.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cfooter%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%2520onclick%253D%2522showCodeFunctionality%28%27modal-box%27%29%2522%253EOk%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%2520onclick%253D%2522showCodeFunctionality%28%27modal-box%27%29%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
         </div>
         <footer class="footer-comp">
             <nav class="nav nav-dark">
