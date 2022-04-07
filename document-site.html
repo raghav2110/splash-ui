@@ -80,6 +80,10 @@
                     <li>
                         List</li>
                 </a>
+                <a href="#grids" onclick="hideSideNavBar()">
+                    <li>
+                        Grids</li>
+                </a>
             </ul>
         </aside>
         <div class="doc-component">
@@ -652,6 +656,33 @@
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
                         style="width: 100%; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Grids Component -->
+            <div class="component" id="grids">
+                <h2>Simple Grids</h2>
+                <p class="description">Grids are use to divide the UI components in 2-dimension.Below grids are responsive as well.</p>
+                <h3>Two Items In Grid</h3>
+                <div class="grid two">
+                    <div class="item">Grid Item 1</div>
+                    <div class="item">Grid Item 2</div>
+                </div>
+                <h3>Three Items In Grid</h3>
+                <div class="grid three">
+                    <div class="item">Grid Item 1</div>
+                    <div class="item">Grid Item 2</div>
+                    <div class="item">Grid Item 3</div>
+                </div>
+                <button class="btn btn-secondary" onclick="showCodeForComp('grids-code')">Code
+                    &lt/&gt
+                </button>
+                <div id="grids-code" style="display: none;">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%253ETwo%2520Items%2520In%2520Grid%253C%252Fh3%253E%250A%253Cdiv%2520class%253D%2522grid%2520two%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Ch3%253EThree%2520items%2520in%2520grid%253C%252Fh3%253E%250A%253Cdiv%2520class%253D%2522grid%2520three%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2522%253EGrid%2520Item%25203%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 279px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
